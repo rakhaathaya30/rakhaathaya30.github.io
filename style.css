@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+body{
+    font-family: 'Young Serif', serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+
+    overflow-x: hidden;
+
+    background-image: url(asset/download.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(221, 122, 221);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    padding: 50px 0px 100px 0px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-container img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+
+    color: black;
+}
+
+.link-item {
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+
+    background-color:rgb(236, 133, 236);
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    margin: 3px 8px;
+    margin-left: 10px;
+    width: 44px;
+    height: 44px;
+}
+
+.link-item p {
+    margin-right: 60px;
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    color: black;
+    box-shadow: inset 700px 0 0 0 #c53ec1;;
+  }
+  
+  /* Presentational styles */
+  a {
+    color: #54b3d6;
+    font-size: 20px;
+    font-weight: 200;
+    line-height:    1.0;
+    text-decoration: none;
+  }
+  
+  body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+  }
+
